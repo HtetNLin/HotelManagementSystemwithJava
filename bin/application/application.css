@@ -1,0 +1,197 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.bg{
+	-fx-background-image : url(background.png);
+}
+.border-white{
+	-fx-border-color : white;
+}
+.border-skin{
+		-fx-border-color :#FF8D50;
+	
+}
+
+
+.border_bottom{
+	-fx-border-style: hidden none solid none;
+    -fx-border-width: 1;
+    -fx-border-color: black;
+}
+.table_border{
+	-fx-border-style: solid solid solid solid;
+    -fx-border-width: 9;
+    -fx-border-color:  #86655E;
+}
+
+.border_cost{
+	-fx-border-color : orange;
+	
+	}
+
+
+/*OPTION Css */	
+
+.button{
+	-fx-border-style: solid solid solid solid;
+    -fx-border-width: 2;
+    -fx-border-color:  #FC425E;
+    
+}
+.button:pressed {
+        -fx-scale-y: 0;
+        -fx-scale-x: 0.99;
+}
+
+.button:hover {
+	-fx-background-color:
+        linear-gradient(#f0ff35, #a9ff00),
+        radial-gradient(center 50% -40%, radius 200%, #FFA579 45%, #FF9059 50%);
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: #FFFFFF;
+       
+        -fx-scale-y: 1.1;
+       
+       }
+.login-form:hover {
+	-fx-background-color:white;
+      
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: #FFFFFF;
+       
+        -fx-scale-y: 1.1;
+       
+       }
+       
+       
+       
+       
+ /*Room Css */
+ 
+ .form{
+ 	-fx-border-style: solid solid solid solid;
+    -fx-border-width: 2;
+    -fx-border-color: #58a3ff;
+ 	
+ }
+ .login-form{
+ 	-fx-border-style: solid none solid none;
+    -fx-border-width: 2;
+    -fx-border-color: #58a3ff;
+ }
+ 
+ 
+ .add-button{
+ 	-fx-border-style: solid solid solid solid;
+    -fx-border-width: 1;
+    -fx-border-color: #84746a;
+    -fx-background-color:#fff;
+    
+ 	
+ }
+ 
+.add-button:hover {
+	-fx-background-color:
+        linear-gradient(#f0ff35, #a9ff00),
+        radial-gradient(center 50% -40%, radius 200%, #E7FFD2 45%, #D7FFB5 50%);
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: black;
+       
+        -fx-scale-y: 1.1;
+       
+       }
+ 
+ .update-button{
+ 	-fx-border-style: solid solid solid solid;
+    -fx-border-width: 1;
+    -fx-border-color: #84746a;
+    -fx-background-color:#fff;
+    
+ 	
+ }
+ 
+.update-button:hover {
+	-fx-background-color:
+        linear-gradient(#f0ff35, #a9ff00),
+        radial-gradient(center 50% -40%, radius 200%, #CED4FF 45%, #B2BCFF 50%);
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: black;
+       
+        -fx-scale-y: 1.1;
+       
+       }
+ 
+ .delete-button{
+ 	-fx-border-style: solid solid solid solid;
+    -fx-border-width: 1;
+    -fx-border-color: #84746a;
+    -fx-background-color:#fff;
+    
+ 	
+ }
+ 
+.delete-button:hover {
+	-fx-background-color:
+        linear-gradient(#f0ff35, #a9ff00),
+        radial-gradient(center 50% -40%, radius 200%, #FFD0C6 45%, #FFAF9E 50%);
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: black;
+       
+        -fx-scale-y: 1.1;
+       
+       }
+ 
+ .refresh-button{
+ 	-fx-border-style: solid solid solid solid;
+    -fx-border-width: 1;
+    -fx-border-color: #84746a;
+    -fx-background-color:#fff;
+    
+ 	
+ }
+ 
+.refresh-button:hover {
+	-fx-background-color:
+        linear-gradient(#f0ff35, #a9ff00),
+        radial-gradient(center 50% -40%, radius 200%, #CFFCFF 45%, #AEF9FF 50%);
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: black;
+       
+        -fx-scale-y: 1.1;
+       
+       }
+       
+       
+       
+  .btn-login{
+  	-fx-border-style: solid solid solid solid;
+    -fx-border-width: 2;
+    -fx-border-color:  white;
+  }
+  .btn-login:hover {
+	-fx-background-color:
+        linear-gradient(#f0ff35, #a9ff00),
+        radial-gradient(center 50% -40%, radius 200%, #FFA579 45%, #FF9059 50%);
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: #FFFFFF;
+       
+        -fx-scale-y: 1.1;
+       
+       }
+       
+   .home{
+   	-fx-background-color:#ff78b9;
+   }

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Bloom?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1450.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.employeeController">
+   <children>
+      <TableView fx:id="employee_table" layoutX="413.0" layoutY="11.0" prefHeight="882.0" prefWidth="1029.0" stylesheets="@application.css">
+        <columns>
+          <TableColumn fx:id="col_employee" editable="false" prefWidth="110.39999389648438" text="Employee ID" />
+          <TableColumn fx:id="col_department" editable="false" prefWidth="121.60003662109375" text="Department ID" />
+            <TableColumn fx:id="col_name" editable="false" minWidth="0.0" prefWidth="85.5999755859375" text="Name" />
+            <TableColumn fx:id="col_age" editable="false" prefWidth="44.0" text="Age" />
+            <TableColumn fx:id="col_nrc" editable="false" prefWidth="100.0" text="Nrc" />
+            <TableColumn fx:id="col_dob" editable="false" prefWidth="91.20001220703125" text="DOB" />
+            <TableColumn fx:id="col_ph" editable="false" prefWidth="116.79986572265625" text="Phone" />
+            <TableColumn fx:id="col_gender" editable="false" prefWidth="89.5999755859375" text="Gender" />
+            <TableColumn fx:id="col_startdate" editable="false" minWidth="0.0" prefWidth="164.0" text="Start Date" />
+            <TableColumn fx:id="col_salary" editable="false" minWidth="0.0" prefWidth="118.39990234375" text="Salary" />
+        </columns>
+      </TableView>
+      <Button fx:id="btnHome" layoutX="14.0" layoutY="14.0" minWidth="46.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="46.0" styleClass="home" stylesheets="@application.css" textFill="#9f9e9e">
+         <graphic>
+            <FontAwesomeIcon accessibleRole="BUTTON" fill="WHITE" iconName="HOME" size="2em" wrappingWidth="22.392894744873047" />
+         </graphic></Button>
+      <AnchorPane layoutX="14.0" layoutY="95.0" prefHeight="794.0" prefWidth="391.0" style="-fx-background-color: #fff;" styleClass="form" stylesheets="@application.css">
+         <children>
+            <Label layoutX="6.0" layoutY="77.0" text="Employee ID" textFill="#84746a">
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="5.0" layoutY="130.0" prefHeight="40.0" prefWidth="130.0" text="Department ID" textFill="#84746a">
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="28.0" layoutY="187.0" text="Name" textFill="#84746a">
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="33.0" layoutY="242.0" text="Age" textFill="#84746a">
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="34.0" layoutY="299.0" text="Nrc" textFill="#84746a">
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="6.0" layoutY="360.0" text="Date of Birth" textFill="#84746a">
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="23.0" layoutY="419.0" text="Ph No" textFill="#84746a">
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="18.0" layoutY="477.0" text="Gender" textFill="#84746a">
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="17.0" layoutY="534.0" text="Start Date" textFill="#84746a">
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="21.0" layoutY="589.0" text="Salary" textFill="#84746a">
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txt_name" layoutX="134.0" layoutY="186.0" prefHeight="42.0" prefWidth="234.0" promptText="Name">
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </TextField>
+            <TextField fx:id="txt_age" layoutX="134.0" layoutY="241.0" maxWidth="-Infinity" prefHeight="42.0" prefWidth="234.0" promptText="Age" AnchorPane.rightAnchor="22.80000000000001">
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </TextField>
+            <TextField fx:id="txt_nrc" layoutX="134.0" layoutY="298.0" prefHeight="42.0" prefWidth="234.0" promptText="Nrc">
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </TextField>
+            <DatePicker fx:id="dp_dob" layoutX="134.0" layoutY="355.0" prefHeight="42.0" prefWidth="234.0" promptText="Date of Birth">
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </DatePicker>
+            <TextField fx:id="txt_ph" layoutX="134.0" layoutY="417.0" prefHeight="42.0" prefWidth="234.0" promptText="Phone">
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </TextField>
+            <DatePicker fx:id="dp_startdate" layoutX="134.0" layoutY="533.0" prefHeight="42.0" prefWidth="234.0" promptText="Start Date">
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </DatePicker>
+            <TextField fx:id="txt_salary" layoutX="134.0" layoutY="589.0" prefHeight="42.0" prefWidth="234.0" promptText="Salary">
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </TextField>
+            <ComboBox fx:id="gender_box" layoutX="134.0" layoutY="476.0" prefHeight="42.0" prefWidth="234.0" promptText="Gender" />
+            <Button layoutX="209.0" layoutY="704.0" mnemonicParsing="false" onAction="#refreshdata" prefHeight="40.0" prefWidth="168.0" styleClass="refresh-button" stylesheets="@application.css" text="Refresh">
+               <font>
+                  <Font name="Maiandra GD" size="19.0" />
+               </font></Button>
+            <Button fx:id="update" layoutX="209.0" layoutY="647.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="168.0" styleClass="update-button" stylesheets="@application.css" text="Update">
+               <font>
+                  <Font name="Maiandra GD" size="19.0" />
+               </font></Button>
+            <Button fx:id="add" layoutX="17.0" layoutY="647.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="176.0" styleClass="add-button" stylesheets="@application.css" text="Add">
+               <font>
+                  <Font name="Maiandra GD" size="19.0" />
+               </font></Button>
+            <Button layoutX="17.0" layoutY="705.0" mnemonicParsing="false" onAction="#Delete" prefHeight="40.0" prefWidth="176.0" styleClass="delete-button" stylesheets="@application.css" text="Delete">
+               <font>
+                  <Font name="Maiandra GD" size="19.0" />
+               </font></Button>
+            <Label alignment="CENTER" layoutX="112.0" layoutY="5.0" prefHeight="50.0" prefWidth="168.0" styleClass="border" stylesheets="@application.css" text="Employee" textFill="#58a3ff">
+               <font>
+                  <Font name="Mongolian Baiti" size="34.0" />
+               </font>
+               <effect>
+                  <Bloom />
+               </effect>
+            </Label>
+            <Label fx:id="txt_employee" alignment="CENTER" layoutX="136.0" layoutY="72.0" prefHeight="42.0" prefWidth="234.0" styleClass="border_bottom" stylesheets="@application.css" text="Label" textFill="#645353">
+               <font>
+                  <Font size="21.0" />
+               </font></Label>
+            <ComboBox fx:id="department_box" layoutX="134.0" layoutY="129.0" prefHeight="42.0" prefWidth="234.0" promptText="Department Id" />
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="100.0" fitWidth="75.0" layoutX="98.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@IMG_0473.JPG" />
+         </image>
+      </ImageView>
+      <Label layoutX="173.0" layoutY="2.0" prefHeight="66.0" prefWidth="126.0" text="Sakura" textFill="#ff78b9">
+         <font>
+            <Font name="Bauhaus 93" size="38.0" />
+         </font>
+      </Label>
+      <Label layoutX="173.0" layoutY="57.0" text="Hotel Management System" textFill="#5c5c5c">
+         <font>
+            <Font name="Almanac MT" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

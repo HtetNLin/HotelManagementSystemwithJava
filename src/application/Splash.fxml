@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.media.MediaView?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootpane" prefHeight="500.0" prefWidth="872.0" style="-fx-background-color: #FFF;" styleClass="form" stylesheets="@application.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.splashController">
+   <children>
+      <MediaView fx:id="media" fitHeight="200.0" fitWidth="200.0" layoutX="336.0" layoutY="158.0" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="102.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@IMG_0495.PNG" />
+         </image>
+      </ImageView>
+      <Label layoutX="214.0" layoutY="64.0" text="Sakura" textFill="#ff78b9">
+         <font>
+            <Font name="Bauhaus 93" size="60.0" />
+         </font>
+      </Label>
+      <Label layoutX="215.0" layoutY="126.0" text="Hotel Management System" textFill="#5c5c5c">
+         <font>
+            <Font name="Almanac MT" size="25.0" />
+         </font>
+      </Label>
+      <MediaView fx:id="media1" fitHeight="200.0" fitWidth="200.0" layoutX="324.0" layoutY="158.0" />
+      <AnchorPane layoutX="536.0" layoutY="-4.0" prefHeight="500.0" prefWidth="332.0" style="-fx-background-color: pink;" />
+      <AnchorPane layoutX="14.0" layoutY="26.0" prefHeight="442.0" prefWidth="84.0" style="-fx-background-color: lightblue;" />
+      <AnchorPane layoutX="110.0" layoutY="240.0" prefHeight="227.0" prefWidth="84.0" style="-fx-background-color: gray;" />
+      <AnchorPane layoutX="214.0" layoutY="308.0" prefHeight="159.0" prefWidth="84.0" style="-fx-background-color: #FFCA7F;" />
+   </children>
+</AnchorPane>
